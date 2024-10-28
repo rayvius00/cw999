@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(5, 1, 25);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cont{
+    width: 900px;
+    height: 500px;
+    border-radius: 7px;
+    background-color: rgb(86, 0, 110);
+    display: grid;
+    grid-template-columns: 450px 450px;
+}
+span{
+    color: blueviolet;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    opacity: 50%;
+}
+
+.violet img{
+    width: 450px;
+    height: 500px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    opacity: 30%;
+}
+
+.left{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    padding: 50px;
+}
+
+.follow{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.follow p{
+    color: white;
+    opacity: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    margin-left: 20px;
+}
+
+.follow h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
